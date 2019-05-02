@@ -34,6 +34,15 @@ public class LargestPrime {
             return -1;
         }
 
+        for (int i = 2; i <= number / 2; i++) {
+            if (number % i == 0) {
+                number /= i;
+                i--;
+            }
+        }
+
+        return number;
+
     }
 
 }

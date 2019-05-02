@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        LargestPrime.getLargestPrime(217);
+        LargestPrime.getLargestPrime(35);
 
     }
 
