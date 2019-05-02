@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        LargestPrime.getLargestPrime(35);
+        System.out.println(LargestPrime.getLargestPrime(35));
 
     }
 
